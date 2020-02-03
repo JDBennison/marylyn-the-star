@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-image {
+     height: 100vh;
+     width: 100%;
+    background: url(/assets/images/229.JPG) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.navbar {
+    background: none;
+    border-color: transparent;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-collapse {
+    text-align: right;
+    border-top: 1px solid transparent;
+    overflow-x: hidden;
+}
+
+.navbar-nav li a {
+    padding: 20px 25px 15px 25px;
+    color: transparent;
+}
+
+.navbar-fixed-top .container {
+    text-align: right;
+    margin-right: 1%;
+    margin-top: 1%;
+}
+
+.logo-image {
+    width: 100%;
+    position: relative;
+}
