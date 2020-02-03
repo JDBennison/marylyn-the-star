@@ -47,3 +47,11 @@ body {
     width: 100%;
     position: relative;
 }
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    display: block;
+}
