@@ -67,12 +67,13 @@ body {
 }
 
 .about-image {
-    width: 40%;
+    width: 20%;
     
 }
 
 .about-box {
     padding-top: 80px;
+    padding-bottom: 40px;
 }
 
 .about-section {
@@ -144,20 +145,15 @@ body {
     font-size: 1.07em;
 }
 
-.facebook-icon {
+.card-link {
     padding: 20px 0;
-    border-radius: 50%;
     font-size: 34px;
-    width: 54px;
     height: 54px;
-    line-height: 18px;
+    display: inline-block;
+    margin: auto;
+    color: #4a4a4a
 }
 
-.twitter-icon {
-    padding: 20px 0;
-    border-radius: 50%;
-    font-size: 34px;
-    width: 54px;
-    height: 54px;
-    line-height: 18xpx;
+.card-img-top {
+    filter: grayscale(100%);
 }
