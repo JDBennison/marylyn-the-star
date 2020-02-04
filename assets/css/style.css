@@ -14,8 +14,8 @@ body {
   background-size: cover;
 
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 
   position: relative;
 }
@@ -54,4 +54,10 @@ body {
     border: 0;
     background-color: #444;
     display: block;
+}
+
+.jumbotron-message {
+    display: flex;
+    align-items: left;
+
 }
