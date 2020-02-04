@@ -58,6 +58,10 @@ body {
     align-items: left;
 }
 
+.jumbotron {
+    margin-bottom: 0;
+}
+
 .hero-cta {
     margin: auto 0;
 }
@@ -76,4 +80,84 @@ body {
     margin-top: 0;
     padding-top: 0;
     background: #fafafa;
+}
+
+/*----------*/
+
+#who {
+    background-attachment: fixed;
+    background-image: url('../images/361.JPG');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+.card-body .row {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.cast-cards {
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: #fdfdfd;
+    border-radius: 2.5%;
+    width: auto;
+    top: 50%;
+    left: 50%;
+    margin: 15% auto;
+    padding: 15px;
+    align-items: center;
+    z-index: 2;
+    display: block;
+    opacity: 0.8;
+    transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -webkit-transition: all .3s ease-in;
+}
+
+.card:hover {
+    opacity: 1;
+}
+
+.card-title {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.card-subtitle {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.card-body .card-text {
+    font-size: 1.07em;
+}
+
+.facebook-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18px;
+}
+
+.twitter-icon {
+    padding: 20px 0;
+    border-radius: 50%;
+    font-size: 34px;
+    width: 54px;
+    height: 54px;
+    line-height: 18xpx;
 }
