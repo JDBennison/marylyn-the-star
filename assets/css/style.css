@@ -4,6 +4,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.logo-main{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10%;
+}
+
 .hero-image {
      height: 100vh;
      width: 100%;
@@ -66,6 +71,12 @@ body {
     margin: auto 0;
 }
 
+.btn-dark:hover, .btn-light:hover {
+    color: #000000;
+    background-color: #F45B5E;
+    border-color: #F45B5E;
+}
+
 .about-image {
     width: 200px;
     border-radius: 50%;
@@ -118,13 +129,8 @@ body {
     background-color: #fdfdfd;
     border-radius: 2.5%;
     width: auto;
-    top: 50%;
-    left: 50%;
     margin: 15% auto;
     padding: 15px;
-    align-items: center;
-    z-index: 2;
-    display: block;
     opacity: 0.8;
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -189,16 +195,16 @@ a:hover {
 .times {
     background: #e0e0e0;
     font-family: "Roboto", sans-serif;
+    padding: 30px 0;
 }
 
 .dates {
     color: #fafafa;
     background-color: rgba(0,0,0, .6);
     width: 48%;
-    height: 300px;
     float: left;
     text-align: center;
-    padding: 15% 0;
+    padding: 4% 0;
     margin-top: 20px;
     margin-left: 5px;
     display: inline-block;
@@ -209,11 +215,15 @@ a:hover {
     -webkit-transition: all .3s ease-in;
 }
 
+.dates-heading {
+    margin-top: 10px;
+}
+
 .dates h3 {
     font-weight: 500;
 }
 
-.dates h4 {
+.dates h4, p {
     font-weight: 100;
 }
 
