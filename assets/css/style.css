@@ -78,12 +78,10 @@ body {
 }
 
 .about-image {
-    width: 250px;
+    width: 100%;
     border-radius: 50%;
-
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    padding-top: 30px;
 }
 
 .about-box {
@@ -100,8 +98,11 @@ body {
 
 .about-logo {
     padding-bottom: 20px;
+    
 }
-
+.blockquote {
+    line-height: 0.5;
+}
 /*----------*/
 
 #who {
@@ -139,6 +140,16 @@ body {
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
+}
+
+@media (min-width: @screen-sm-min){
+    .card {
+    background-color: #fdfdfd;
+    border-radius: 2.5%;
+    width: auto;
+    margin: 15% auto;
+    padding: 15px;
+    }
 }
 
 .card:hover {
