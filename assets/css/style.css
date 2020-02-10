@@ -78,10 +78,11 @@ body {
 }
 
 .about-image {
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
     display: block;
-    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .about-box {
