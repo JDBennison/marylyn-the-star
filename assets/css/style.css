@@ -103,7 +103,6 @@ body {
 .blockquote {
     line-height: 0.5;
 }
-/*----------*/
 
 #who {
     background-attachment: fixed;
@@ -142,13 +141,12 @@ body {
     -webkit-transition: all .3s ease-in;
 }
 
-@media (min-width: @screen-sm-min){
+@media screen and (max-width: 960px){
     .card {
-    background-color: #fdfdfd;
-    border-radius: 2.5%;
-    width: auto;
-    margin: 15% auto;
-    padding: 15px;
+        opacity: 1;
+    }
+    .dates {
+        opacity: 1;
     }
 }
 
@@ -176,7 +174,10 @@ body {
     height: 54px;
     display: inline-block;
     margin: auto;
-    color: #4a4a4a
+    color: #4a4a4a;
+    transition: color .3s ease-out;
+    -moz-transition: color .3s ease-out;
+    -webkit-transition: color .3s ease-out;
 }
 
 .card-img-top {
@@ -251,4 +252,30 @@ a:hover {
 
 .dates:hover {
     opacity: 1;
+}
+
+footer {
+  height: 150px
+}
+
+.social-networks {
+  text-align: center;
+}
+
+.social-networks li {
+  display: inline
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 4%;
+    color: #777777;
+    transition: color .3s ease-out;
+    -moz-transition: color .3s ease-out;
+    -webkit-transition: color .3s ease-out;
+}
+
+.social-networks i:hover {
+    color: #F45B5E;
 }
