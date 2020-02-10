@@ -145,9 +145,6 @@ body {
     .card {
         opacity: 1;
     }
-    .dates {
-        opacity: 1;
-    }
 }
 
 .card:hover {
@@ -197,8 +194,7 @@ a:hover {
     overflow: hidden;
     padding-bottom: 56.25%;
     position: relative;
-    height: 300px;
-    padding-top: 20px;
+    height: 100%;
 }
 
 .map-container iframe {
@@ -209,11 +205,7 @@ a:hover {
 }
 
 .times {
-    background: url(../images/505.png) no-repeat center center;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: #f0f0f0;
   display: flex;
   justify-content: left;
   position: relative;
@@ -221,40 +213,84 @@ a:hover {
     padding: 30px 0;
 }
 
-.dates {
-    color: #fafafa;
-    background-color: #4e4e4e;
-    width: 48%;
-    float: left;
-    text-align: center;
-    padding: 4% 0;
-    margin-top: 20px;
-    margin-left: 5px;
-    display: inline-block;
-    border-radius: 5%;
-    opacity: 0.8;
-    transition: all .3s ease-in;
-    -moz-transition: all .3s ease-in;
-    -webkit-transition: all .3s ease-in;
+.book-table-center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.dates-heading {
-    margin-top: 10px;
+.book-table-heading {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 1.5em;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+    margin-bottom: 0;
 }
 
-.dates h3 {
+.book-table-choose {
+    background-color: #595a6d;
+    color: #ffffff;
+    padding: 4px 16px;
     font-weight: 500;
+    font-size: 0.95em;
+    margin-bottom: 0;
 }
 
-.dates h4, p {
-    font-weight: 100;
+.book-table {
+    background-color: #F45B5E;
+    padding-bottom: 1px;
+    width: auto;
+    font-size: 14px;
+    border: 0;
 }
 
-.dates:hover {
-    opacity: 1;
+.table-row {
+    border-top: 10px solid #F45B5E;
+    border-bottom: 10px solid #F45B5E;
 }
 
-footer {
+.table-col1 {
+    text-align: center;
+    color: white;
+    padding: 4px 16px;
+}
+
+.table-day {
+    color: #ecb0b0
+}
+
+.table-date {
+    color: #fdfdfd;
+    font-size: 1.5em;
+    display: block;
+}
+
+.table-time {
+    font-size: 1.5em;
+}
+
+
+.table-col2 {
+    background-color: black;
+    text-align: center;
+    border-left: 30px solid #F45B5E;
+    transition: color .3s ease-out;
+    -moz-transition: color .3s ease-out;
+    -webkit-transition: color .3s ease-out;
+}
+
+.table-col2 a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+
+.table-col2:hover {
+    background-color: #545454;
+}
+
+.footer {
   height: 150px
 }
 
