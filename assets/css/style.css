@@ -197,6 +197,12 @@ a:hover {
     height: 100%;
 }
 
+@media screen and (max-width: 960px){
+    .map-container {
+        height: 400px;
+    }
+}
+
 .map-container iframe {
     left:0;
     height:100%;
