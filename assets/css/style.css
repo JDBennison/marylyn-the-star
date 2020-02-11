@@ -2,11 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.logo-main{
-    background: rgba(255, 255, 255, 0.3);
-    border-radius: 10%;
+    text-align: justify;
 }
 
 .hero-image {
@@ -23,20 +19,19 @@ body {
 }
 
 .navbar {
-    background: none;
     border-color: transparent;
     text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0rem 1rem;
 }
 
 .navbar .navbar-collapse {
     text-align: right;
-    border-top: 1px solid transparent;
     overflow-x: hidden;
 }
 
 .navbar-nav li a {
     padding: 20px 25px 15px 25px;
-    color: transparent;
 }
 
 .navbar-fixed-top .container {
@@ -111,16 +106,14 @@ body {
     background-position: center;
     background-size: cover;
     width: 100vw;
-    padding-bottom: 50px;
     background-repeat: no-repeat;
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
 }
 
-.card-body .row {
-    text-align: center;
-    padding-top: 10px;
+.card-body {
+    padding: 1rem 0 0 0;
 }
 
 .cast-cards {
@@ -134,7 +127,7 @@ body {
     background-color: #fdfdfd;
     border-radius: 2.5%;
     width: auto;
-    margin: 15% auto;
+    margin: 5px 0;
     padding: 15px;
     opacity: 0.8;
     transition: all .3s ease-in;
@@ -167,9 +160,7 @@ body {
 }
 
 .card-link {
-    padding: 20px 0;
     font-size: 34px;
-    height: 54px;
     display: inline-block;
     margin: auto;
     color: #4a4a4a;
@@ -198,9 +189,14 @@ a:hover {
     height: 100%;
 }
 
+
+
 @media screen and (max-width: 960px){
     .map-container {
         height: 400px;
+    }
+    #map-container-google-1 {
+    padding-top: 30px;
     }
 }
 
@@ -213,9 +209,9 @@ a:hover {
 
 .times {
     background: #f0f0f0;
-  display: flex;
-  justify-content: left;
-  position: relative;
+    display: flex;
+    justify-content: left;
+    position: relative;
     font-family: "Roboto", sans-serif;
     padding: 30px 0;
 }
@@ -249,7 +245,7 @@ a:hover {
     padding-bottom: 1px;
     width: auto;
     font-size: 14px;
-    border: 0;
+    padding-left: 16px;
 }
 
 .table-row {
@@ -282,6 +278,7 @@ a:hover {
     background-color: black;
     text-align: center;
     border-left: 30px solid #F45B5E;
+    border-right: 30px solid #F45B5E;
     transition: background .3s ease-out;
     -moz-transition: background .3s ease-out;
     -webkit-transition: background .3s ease-out;
@@ -295,6 +292,11 @@ a:hover {
 
 .table-col2:hover {
     background-color: #545454;
+}
+
+.table td {
+    padding: 0;
+    vertical-align: middle;
 }
 
 .footer {
