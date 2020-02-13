@@ -5,24 +5,31 @@ body {
     text-align: justify;
 }
 
-.hero-image {
-    height: 100vh;
-    width: 100%;
-    background: url(../images/229.JPG) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    justify-content: left;
-    position: relative;
+/* ------------------------------- Dividers & Buttons */
+
+.block-divider {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #444;
+    display: block;
 }
+
+
+
+.btn-dark:hover, .btn-light:hover {
+    color: #000000;
+    background-color: #F45B5E;
+    border-color: #F45B5E;
+}
+
+/* ------------------------------- Navbar */
+
 
 .navbar {
     border-color: transparent;
     text-transform: uppercase;
-    background: rgba(255, 255, 255, 0.8);
-
+    background: rgba(241, 241, 241, 0.8);
     padding: 10px;
 }
 
@@ -47,13 +54,23 @@ body {
     
 }
 
+/* ------------------------------- Jumbotron */
 
-.block-divider {
-    width: 75px;
-    height: 5px;
-    border: 0;
-    background-color: #444;
-    display: block;
+/* Originally I had the hero image be a full screen image but I didnt like the navbar covering it when you first arrive
+on the page so gave it a small gap at the top. I've done the same for each section. */
+.hero-image {
+    height: 89vh;
+    width: 100%;
+    background: url(../images/229.JPG) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    margin-top: 70px;
+    padding: 0;
 }
 
 .jumbotron-message {
@@ -73,11 +90,8 @@ body {
     margin: auto 0;
 }
 
-.btn-dark:hover, .btn-light:hover {
-    color: #000000;
-    background-color: #F45B5E;
-    border-color: #F45B5E;
-}
+
+/* ------------------------------- About */
 
 .about-image {
     width: 80%;
@@ -88,8 +102,7 @@ body {
 }
 
 .about-box {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 70px;
     margin: auto 0;
 }
 
@@ -107,6 +120,10 @@ body {
     line-height: 0.5;
 }
 
+/* ------------------------------- Cast & Crew */
+
+/* I wanted to create space for the navbar on this section but it was made harder with the background image so I 
+added a top border and removed all padding from the About section. */
 #who {
     background-attachment: fixed;
     background-image: url('../images/361.JPG');
@@ -117,6 +134,7 @@ body {
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
+    border-top: 70px solid #e0e0e0;
 }
 
 .card-body {
@@ -130,6 +148,9 @@ body {
 
 }
 
+/* With the cards I have made it so that on a desktop they will be opaque and go solid when the mouse hovers over them
+however I didnt think this effect would have the same impact on a tablet or desktop without a mouse so have removed
+this property when the screen is smaller. */
 .card {
     background-color: #fdfdfd;
     border-radius: 2.5%;
@@ -184,6 +205,9 @@ a:hover {
     color: #F45B5E;
 }
 
+/* ------------------------------- Book Tickets */
+
+
 .container {
     padding: 0;
     margin: 0;
@@ -195,8 +219,6 @@ a:hover {
     position: relative;
     height: 100%;
 }
-
-
 
 @media screen and (max-width: 960px){
     .map-container {
@@ -220,7 +242,7 @@ a:hover {
     justify-content: left;
     position: relative;
     font-family: "Roboto", sans-serif;
-    padding: 30px 0;
+    padding: 70px 0;
 }
 
 .book-table-center {
@@ -305,6 +327,9 @@ a:hover {
     padding: 0;
     vertical-align: middle;
 }
+
+/* ------------------------------- Footer */
+
 
 .footer {
   height: 150px
