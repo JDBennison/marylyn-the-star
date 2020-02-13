@@ -22,7 +22,8 @@ body {
     border-color: transparent;
     text-transform: uppercase;
     background: rgba(255, 255, 255, 0.8);
-    padding: 0rem 1rem;
+
+    padding: 10px;
 }
 
 .navbar .navbar-collapse {
@@ -46,11 +47,6 @@ body {
     
 }
 
-
-.navbar {
-        flex-wrap: inherit;
-        padding: 10px;
-    }
 
 .block-divider {
     width: 75px;
