@@ -73,6 +73,12 @@ on the page so gave it a small gap at the top. I've done the same for each secti
     padding: 0;
 }
 
+@media (hover: none) {
+    .hero-image{
+        background-attachment: scroll;
+    }
+}
+
 .jumbotron-message {
     display: flex;
     align-items: left;
