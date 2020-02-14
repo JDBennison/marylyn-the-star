@@ -74,7 +74,10 @@ on the page so gave it a small gap at the top. I've done the same for each secti
 }
 
 @media (hover: none) {
-    .hero-image{
+    .hero-image {
+        background-attachment: scroll;
+    }
+    #who {
         background-attachment: scroll;
     }
 }
@@ -133,8 +136,10 @@ on the page so gave it a small gap at the top. I've done the same for each secti
 added a top border and removed all padding from the About section. */
 #who {
     background-attachment: fixed;
-    background-image: url('../images/361.JPG');
-    background-position: center;
+    background: url('../images/361.JPG') no-repeat center center fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     width: 100vw;
     background-repeat: no-repeat;
