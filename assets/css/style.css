@@ -84,6 +84,7 @@ on the page so gave it a small gap at the top. I've done the same for each secti
 
 .jumbotron-header {
     font-family: 'Limelight', sans-serif;
+    text-align: left;
 }
 
 .hero-cta {
