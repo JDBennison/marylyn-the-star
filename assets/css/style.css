@@ -80,11 +80,6 @@ on the page so gave it a small gap at the top. I've done the same for each secti
     
 }
 
-.jumbotron-message {
-    display: flex;
-    align-items: left;
-}
-
 .jumbotron {
     margin-bottom: 0;
 }
@@ -133,8 +128,9 @@ on the page so gave it a small gap at the top. I've done the same for each secti
 
 .about-logo {
     padding-bottom: 20px;
-    
+    width: 100%;    
 }
+
 .blockquote {
     line-height: 0.5;
 }
