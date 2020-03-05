@@ -180,6 +180,12 @@ this property when the screen is smaller. */
     }
 }
 
+@media screen and (max-width: 770px){
+    .card {
+        height: auto;
+    }
+}
+
 .card:hover {
     opacity: 1;
 }
