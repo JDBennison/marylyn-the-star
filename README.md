@@ -46,6 +46,9 @@ Currently all of the links in this section lead to the Brighton Fringe website a
 ### Features Left to Implement
 Other features which will be implemented or could be implimented in the future
 
+#### Company/Venue information
+Putting more details about the venue and the company to add more professionality to the webpage is a must which will be done relatively soon but is not crucial for the launch of the fringe programme.
+
 #### Contact form
 I would like to introduce a modal contact form for any other theatres to contact the company and invite them to perform. This will help the company to get further work.
 
@@ -83,22 +86,7 @@ On mobile view I realised that there was an alignment issue which meant that the
 
 The links throughout the pages all worked but the cast and crew cards needed a lot of testing. There were some alignment issues to begin with in regards to padding which meant some of the cards were dissapearing off the screen but this has been fixed. I've also reduced the borders so there is more room for text in each of the cards and there isnt a lot of empty space on mobile devices.
 
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+The biggest problem I discovered was that the images I used as the background have a fixed feature which means the text and cards scroll over it on desktop but on some mobile devices it can't handle this. I added some code which meant the image scrolls with the text on such devices. This created a different problem however. For the jumbotron the issue was solved however on the cast and crew section, as the section takes up more vertical space on mobile view, the background image was stretch so much you couldnt discern what it was at all. In this case I decided to make it swap to a plain dark background for mobile devices.
 
 ## Deployment
 
@@ -107,16 +95,18 @@ To deploy this onto GitHub Pages I went to settings, changed the source to 'mast
 To clone this project, follow these steps.
 1. Click on [this link](https://github.com/JDBennison/marylyn-the-star).
 2. Under the repository name, click Clone or download.
-3. To clone the repository using HTTPS, under "Clone with HTTPS", click . 
+3. To clone the repository using HTTPS, under "Clone with HTTPS", click the copy button. 
 4. Open Terminal.
 5. Change the current working directory to the location where you want the cloned directory to be made.
-6. Type git clone, and then paste the URL you copied in Step 2.
+6. Type git clone, and then paste the URL you copied in Step 3.
 7. Press Enter. Your local clone will be created.
 
-##Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
+## Credits
+### Content
+The text in this website was written by Duncan Hopper and the biographies by the cast and crew themselves
+
+### Media
+The photos used in this site were taken specifically for the show by Miles Davies photography
+
+### Acknowledgements
+I received inspiration for this project from Towngate Theatre in regards to displaying the dates available for booking.
