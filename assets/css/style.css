@@ -98,6 +98,15 @@ on the page so gave it a small gap at the top. I've done the same for each secti
     margin: auto 0;
 }
 
+@media screen and (max-width: 540px){
+    .hero-cta {
+        margin: 50vh 0 10vh 0;
+        text-align: right;
+    }
+    .jumbotron-header {
+        text-align: right;
+    }
+}
 
 /* ------------------------------- About */
 
@@ -180,6 +189,7 @@ this property when the screen is smaller. */
     #who {
         background: #737373;
     }  
+
 }
 
 .card:hover {
