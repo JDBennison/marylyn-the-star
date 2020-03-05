@@ -77,9 +77,7 @@ on the page so gave it a small gap at the top. I've done the same for each secti
     .hero-image {
         background-attachment: scroll;
     }
-    #who {
-        background-attachment: scroll;
-    }
+    
 }
 
 .jumbotron-message {
@@ -137,7 +135,7 @@ added a top border and removed all padding from the About section. */
 #who {
     background-attachment: fixed;
     background: url('../images/361.JPG') no-repeat center center fixed;
-     -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -179,6 +177,9 @@ this property when the screen is smaller. */
     .card {
         opacity: 1;
     }
+    #who {
+        background: #737373;
+    }  
 }
 
 .card:hover {
