@@ -76,15 +76,18 @@ I have used mostly HTML5 and CSS3 to put together this site along with the follo
 
 * [Bootstrap](https://getbootstrap.com/)
     * For basic formatting and layout.
+    * v4.4.1
 
 * [Font Awesome](https://fontawesome.com/)
     * For icons to social media.
+    * Version 5.12.1 
 
 * [Google Fonts](https://fonts.google.com/)
     * For the use of Roboto and Limelight.
 
 * [JQuery](https://jquery.com/)
     * For the navbar dropdown.
+    * v.3.4.1
 
 ## Testing
 
