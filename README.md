@@ -13,8 +13,16 @@ They wanted:
 
 I decided that simplicity would work best for the company and so I put all the information on a one page layout with the navbar fixed to the top for quick access to everything.
 
-My initial mockup is stored in assets/mockups/Marilyn.pdf
+[My initial mockup](assets/mockups/Marilyn.pdf) for desktop sites.
 
+[My mobile mockup](assets/mockups/MarilynMobile.pdf) for mobile devices.
+
+### User Stories
+* As a person exploring the show for the first time I want information about the play close to the top to find out whether it is something I would be interested in.
+* As someone who has decided to see the show I want a clear button to take me to booking infomation so I can see when the show is on and book tickets.
+* As an audience member coming to see the show that day I want some easy to find directions to the venue so I know where to find it.
+* As an audience member watching the show or a reviewer writing up about the show I want all the details about the cast and crew available so I can find out more about them and spell their names properly in the glowing reviews.
+* As an audience member who has seen the show I want access to all their social media so that I can find out about future shows and other tours they may be doing in the future.
 
 ## Features
 
@@ -90,7 +98,15 @@ The biggest problem I discovered was that the images I used as the background ha
 
 ## Deployment
 
-To deploy this onto GitHub Pages I went to settings, changed the source to 'master branch' and uploaded the page.
+To deploy this onto GitHub Pages I went to settings, changed the source to 'master branch' and uploaded the page. I then bought the domain from GoDaddy and followed the following steps
+1. On the DNS Management page I added the following
+    * Four type A rows with these IP addresses
+        1. 185.199.108.153
+        2. 185.199.109.153
+        3. 185.199.110.153
+        4. 185.199.111.153
+    * A CNAME row with "https://github.com/JDBennison"
+2. On the github settings I then added my domain name which added a CNAME file to the document and connected up the domain.
 
 To clone this project, follow these steps.
 1. Click on [this link](https://github.com/JDBennison/marylyn-the-star).

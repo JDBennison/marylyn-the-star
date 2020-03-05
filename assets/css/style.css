@@ -96,6 +96,8 @@ on the page so gave it a small gap at the top. I've done the same for each secti
 
 .hero-cta {
     margin: auto 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media screen and (max-width: 540px){
@@ -142,14 +144,8 @@ on the page so gave it a small gap at the top. I've done the same for each secti
 /* I wanted to create space for the navbar on this section but it was made harder with the background image so I 
 added a top border and removed all padding from the About section. */
 #who {
-    background-attachment: fixed;
-    background: url('../images/361.JPG') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background: #737373;
     width: 100vw;
-    background-repeat: no-repeat;
     position: relative;
     font-weight: 300;
     margin-bottom: 0px;
@@ -180,16 +176,13 @@ this property when the screen is smaller. */
     transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -webkit-transition: all .3s ease-in;
+    height: 761px;
 }
 
 @media screen and (max-width: 960px){
     .card {
         opacity: 1;
     }
-    #who {
-        background: #737373;
-    }  
-
 }
 
 .card:hover {
